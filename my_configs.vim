@@ -13,3 +13,4 @@ set nowrap
 
 nnoremap <F3> :NERDTreeToggle<cr>
 nnoremap ; :
+:set mouse=a
