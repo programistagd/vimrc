@@ -26,3 +26,7 @@ endfunction
 autocmd BufNewFile *.{h,hpp} call <SID>insert_gates()
 
 set nu
+
+let g:syntastic_cpp_include_dirs=['/home/radek/seasocks/src/main/c']
+"let g:syntastic_cpp_compiler = 'clang++'
+let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'

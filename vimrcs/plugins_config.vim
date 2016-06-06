@@ -152,7 +152,7 @@ let g:syntastic_javascript_checkers = ['jshint']
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_go_checkers = ['go', 'golint', 'errcheck']
 
-let g:syntastic_cpp_checkers = []
+" let g:syntastic_cpp_checkers = []
 
 " Custom CoffeeScript SyntasticCheck
 func! SyntasticCheckCoffeescript()
